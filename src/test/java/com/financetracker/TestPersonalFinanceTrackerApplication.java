@@ -1,4 +1,4 @@
-package com.personalfinancetracker;
+package com.financetracker;
 
 import org.springframework.boot.SpringApplication;
 
