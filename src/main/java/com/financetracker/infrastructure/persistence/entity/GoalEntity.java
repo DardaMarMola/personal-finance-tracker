@@ -12,16 +12,16 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "category")
-public class Category {
+@Document(collection = "goal")
+public class GoalEntity {
     @Id
     @JsonIgnore
     private Long id;
     private Long user_id;
     private String name;
-    private String type;
-    private String icon;
-    private String color;
-    private Boolean isDefault;
+    private Long target_amount;
+    private Long current_amount;
+    private LocalDateTime target_date;
     private LocalDateTime create_at;
+    private LocalDateTime update_at;
 }

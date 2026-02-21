@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document(collection = "budget")
-public class Budget {
+public class BudgetEntity {
     @Id
     @JsonIgnore
     private Long id;

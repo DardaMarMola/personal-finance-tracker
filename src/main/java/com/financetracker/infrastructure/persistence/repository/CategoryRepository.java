@@ -1,7 +1,7 @@
 package com.financetracker.infrastructure.persistence.repository;
 
-import com.financetracker.infrastructure.persistence.entity.Category;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import com.financetracker.infrastructure.persistence.entity.CategoryEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CategoryRepository extends MongoRepository<Category, Long> {
+public interface CategoryRepository extends JpaRepository<CategoryEntity, Long> {
 }

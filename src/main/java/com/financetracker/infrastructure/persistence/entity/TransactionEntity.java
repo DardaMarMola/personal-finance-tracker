@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document(collection = "transaction")
-public class Transaction {
+public class TransactionEntity {
     @Id
     @JsonIgnore
     private Long id;
